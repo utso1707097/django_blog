@@ -1,0 +1,71 @@
+# Ignore Python-related files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyz
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+
+# Ignore development and environment files
+*.env
+*.env.*
+*.sqlite3
+*.db
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore local settings
+settings_local.py
+
+# Ignore media and static files
+media/
+static/
+
+# Ignore compiled files and build artifacts
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.egg-info/
+dist/
+build/
+
+# Ignore cache and temporary files
+*.cache/
+*.bak
+*.swp
+*.tmp
+
+# Ignore database backup files
+*.backup
+*.dump
+
+# Ignore dependency management files
+pip-lock.txt
+pipenv.lock
+Pipfile.lock
+
+# Ignore secret keys and sensitive information
+*.secret
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore compiled translations
+locale/
+*.mo
